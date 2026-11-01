@@ -12,18 +12,26 @@
 <meta property="og:type" content="website">
 <link rel="canonical" href="https://YOUR_USERNAME.github.io/">
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-18496473934"></script>
+<!-- Google tag (gtag.js) - الكود الجديد -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-18549876773"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-  gtag('config', 'AW-18496473934');
+
+  gtag('config', 'AW-18549876773');
 </script>
+
+<!-- Event snippet for نقرة صادرة إلى الخارج conversion page -->
 <script>
 function gtag_report_conversion(url) {
-  var callback = function () { if (typeof(url) != 'undefined') { window.location = url; } };
+  var callback = function () {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  };
   gtag('event', 'conversion', {
-      'send_to': 'AW-18496473934/3Aj5CNjpn6gdEM6W5_NE',
+      'send_to': 'AW-18549876773/fKGTCIzIh7AdEKXQoo1F',
       'event_callback': callback
   });
   return false;
